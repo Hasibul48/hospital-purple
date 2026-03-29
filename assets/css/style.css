@@ -269,36 +269,38 @@ body {
 }
 
 .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem 1.5rem;
-    border-radius: 9999px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: none;
-    text-decoration: none;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 12px 28px !important;
+    border-radius: 50px !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    transition: all 0.3s ease !important;
+    cursor: pointer !important;
+    border: none !important;
+    text-decoration: none !important;
+    line-height: 1 !important;
 }
 
 .btn-primary {
-    background-color: var(--praava-pink);
-    color: white;
+    background-color: var(--praava-pink) !important;
+    color: white !important;
 }
 
 .btn-primary:hover {
-    background-color: #6d1849;
+    background-color: #6d1849 !important;
 }
 
-.btn-secondary {
-    background-color: transparent;
-    border: 2px solid var(--praava-pink);
-    color: var(--praava-pink);
+.btn-secondary, .btn-outline {
+    background-color: transparent !important;
+    border: 2px solid var(--praava-pink) !important;
+    color: var(--praava-pink) !important;
 }
 
-.btn-secondary:hover {
-    background-color: var(--praava-pink);
-    color: white;
+.btn-secondary:hover, .btn-outline:hover {
+    background-color: var(--praava-pink) !important;
+    color: white !important;
 }
 
 .input {
