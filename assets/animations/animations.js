@@ -1,5 +1,5 @@
 /**
- * Praava Health - Centralized Animation System
+ * Livara Health - Centralized Animation System
  * Using AOS (Animate On Scroll) Library
  */
 
@@ -103,14 +103,14 @@
                 AOS.refresh();
             });
 
-            console.log('Praava Animations initialized');
+            console.log('Livara Animations initialized');
         }).catch(function(err) {
             console.error('Failed to load AOS:', err);
         });
     }
 
     // Helper to add animation class to element
-    window.PraavaAnimations = {
+    window.LivaraAnimations = {
         init: init,
         
         // Apply animation to element

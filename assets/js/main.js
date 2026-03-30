@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('resize', handleResize);
 
-    console.log('Praava Health website loaded successfully');
+    console.log('Livara Health website loaded successfully');
 });
 
 window.addEventListener('load', function() {
